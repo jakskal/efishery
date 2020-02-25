@@ -1,3 +1,6 @@
+# Endpoint documantation
+you can see the Endpoint documentation in [Endpoint documentation](https://anglingz.docs.apiary.io/#reference/0/authentication) or file API_documentation.MD 
+
 # Manual instalation
 
 ## Requirement

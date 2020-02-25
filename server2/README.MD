@@ -1,3 +1,7 @@
+# Endoint documantation
+
+you can see the Endoint documentation in [Endoint documentation](https://server21.docs.apiary.io/#) or file Endpoint_documentation.MD
+
 # manual instalation
 
 ## Requirement
