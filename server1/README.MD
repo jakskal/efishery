@@ -19,6 +19,8 @@ see [docker documentation](https://docs.docker.com/)
 ## Run Containerized Postgres if have no postgres installed
 docker run --name postgres -p 5432:5432 -d postgres
 
+inspect the postgres container ip addres and set it to DB_HOST in .env file
+
 ## Setup environtment variable 
 you can see the example from .env.example
 
@@ -34,4 +36,13 @@ you can see the example from .env.example
 *  docker
 see [docker documentation](https://docs.docker.com/) 
 
+## Build application
+```cd to/app/directory```
+
+```docker build it server1 .```
+
 ## Run application
+
+⋅⋅⋅ note: make sure set your .env properly
+
+```docker run -it --rm -p 8080:8080 --env-file ./.env --name server1 server1```

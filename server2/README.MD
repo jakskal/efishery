@@ -25,4 +25,10 @@ you can see the example from .env.example
 *  docker
 see [docker documentation](https://docs.docker.com/) 
 
+## Build application
+```cd to/app/directory```
+
+```docker build it server2 .```
+
 ## Run application
+```docker run -it --rm -p 8081:8081 --env-file ./.env --name server2 server2```
